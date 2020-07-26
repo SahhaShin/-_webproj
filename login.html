@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="login.css">
+    <title>login_나 때는 말이야</title>
+
+
+    <!--경고창-->
+    <script>
+
+        function myFunction() {
+
+            alert("로그인정보가 틀립니다.");
+
+        }
+
+    </script>
+</head>
+
+<body>
+
+    <!--top 홈으로 가기 아이콘-->
+    <thead>
+
+        <!--회원가입, 로그인, 이벤트 -->
+        <nav class="navbar navbar-light bg-light" style="width:100%;">
+            <a class="navbar-brand" href="./index.html"><img class="img_center" width="150px" src="img/logo.png"></a>
+
+        </nav>
+
+
+    </thead>
+
+    <div class="container outline">
+        <p class="main" style="font-size: 3em;">로그인하기</p>
+        <input class="input" type="text" name="아이디" placeholder="아이디" style="width:30%;">
+        <br><br>
+        <input class="input" type="text" name="비밀번호" placeholder="비밀번호" style="width:30%;">
+        <br><br>
+
+
+        <table class="margin_le">
+            <tr>
+                <td>
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox100"
+                        value="option100" aria-label="..." checked>
+                </td>
+                <td>로그인 유지</td>
+                <td>&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+                <td><a href="#">아이디 찾기</a>&nbsp|</td>
+                <td>&nbsp<a href="#">비밀번호 재설정</a></td>
+            </tr>
+        </table>
+
+
+
+
+
+        <button type="button" class="btn btn-dark input input2" style="inline-size: 30%;"
+            onclick="myFunction()">로그인하기</button>
+        <br><br>
+        <p class="input br_g">아직 계정이 없습니까? <a
+                href="./join.html">가입하기</a>
+        </p>
+
+
+
+    </div>
+
+    <div class="container brbr">
+        <p style="color: red;">양식 입력 중 오류가 발생하면 여기에 메세지가 표시됩니다.</p>
+    </div>
+</body>
+
+</html>

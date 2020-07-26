@@ -1,0 +1,70 @@
+@font-face { font-family: 'KyoboHand'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Binggrae-Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae-Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
+*{
+    font-family: 'Binggrae-Bold';
+    
+}
+
+
+.nev_right{
+    margin-left: 1000px;
+    font-size: small;
+}
+
+.menu_1{
+    font-size: small;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+a:link {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:active {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+.move{
+    margin-left: 10%;
+    
+}
+.center_new{
+    margin-left: 300px;
+ 
+}
+.card_title{
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.card_size{
+    width: 500px;
+    height: 500px;
+}
+
+.location{
+    margin-left: 11%;
+    font-size: 25px;
+}
+
+.central0{
+    margin-left: 30%;
+    margin-top: 5%;
+}
+.central{
+    margin-left: 1%;
+    margin-top: 5%;
+}

@@ -1,0 +1,143 @@
+@font-face { font-family: 'KyoboHand'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Binggrae-Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae-Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
+*{
+    font-family: 'Binggrae-Bold';
+    
+}
+
+
+.nev_right{
+    margin-left: 1000px;
+    font-size: small;
+}
+
+.menu_1{
+    font-size: small;
+    color: white;
+}
+
+.info-right{
+    float:left;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+.card-img-top{
+    float: left;
+    width:500px;
+    height:500px;
+    margin-left: 100px;
+}
+
+.intro_book{
+    margin-top: 600px;
+}
+.full_size{
+    margin-left: 100px;
+    margin-right: 100px;
+    width:100%;
+}
+
+.btn_wid{
+    width: 400px;
+}
+
+.full_size_tr{
+    margin-left: 300px;
+    margin-right: 500px;
+    width : 50%;
+    height: 80px;
+
+}
+.card-img-book{
+    width:50px;
+    height:50px;
+}
+.btn_right{
+    margin-right: 50px;
+    margin-top: 8px;
+    float: right;
+}
+
+.btn_wid2{
+    width:100%;
+}
+
+.mar_le{
+    margin-left: 300px;
+}
+
+.mar_le_ri{
+    margin-left: 300px;
+    margin-right:300px;
+}
+
+.represent_book{
+    width:200px;
+    height:250px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+.review_he{
+    height: 100px;
+}
+
+.review_le{
+    float:right;
+    margin-right: 250px;
+}
+
+.drop_size{
+    width:55%;
+    margin-left: 300px;
+    
+}
+.review{
+    margin-top: 100px;
+}
+
+
+.review_re{
+   
+    margin-left: 10px;
+    margin-right: 0px;
+    width: 80px;
+    height: 30px;
+    font-size: small;
+
+}
+.re_wich{
+    float: right;
+    width: 80px;
+    height: 30px;
+    font-size: small;
+    margin-top: 8px;
+}
+ul{
+    list-style: none;
+}
+.review_more{
+    margin-left: 300px;
+    width: 50%;
+}
+a:link {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:active {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+

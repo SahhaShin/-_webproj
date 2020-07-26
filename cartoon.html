@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>만화_나 때는 말이야</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="inso.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <thead>
+
+        <!--회원가입, 로그인, 이벤트 -->
+        <nav class="navbar navbar-light bg-dark row">
+            <a class="navbar-brand nev_right" href="./join.html" style="color: white;">회원가입</a>
+            <a class="navbar-brand menu_1" href="./login.html" style="color: white;">로그인</a>
+            <a class="navbar-brand menu_1" href="#" style="color: white;">이벤트</a>
+            <a class="navbar-brand menu_1" href="#" style="color: white;">마이페이지</a>
+        </nav>
+
+        <!--메뉴바-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning sticky-top">
+            <a class="navbar-brand" href="./index.html"><img width="150px" src="img/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./inso.html">인소<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sing.html">노래/브금</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            하이라이트 영상
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="./cartoon.html">만화</a>
+                            <a class="dropdown-item" href="#">예능(준비중)</a>
+                            <a class="dropdown-item" href="#">드라마(준비중)</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./post.html">과거공유</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="무엇을 보고싶나요?" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+
+
+
+    </thead>
+
+   
+    <!--태그-->
+    <div class="central0"><b1>태그를 선택하여 결과를 확인하세요.(한 개의 주제 선택 가능)</b1></div>
+    <div>
+    <button type="button" class="btn btn-outline-warning central0">#로맨스</button>
+    <button type="button" class="btn btn-outline-warning central">#스릴러</button>
+    <button type="button" class="btn btn-outline-warning central">#공포</button>
+    <button type="button" class="btn btn-outline-warning central">#어드벤쳐</button>
+    <button type="button" class="btn btn-outline-warning central">#영화</button>
+    </div>
+
+    
+    <!--오늘의 만화-->
+   
+
+    <div class="container-fluid ">
+        <br><br><br><br>
+    <hr style="color: rgb(231, 229, 229); border: solid 1px; width: 1000px;">
+    <br>
+        <div class="btn-toolbar mb-5 btn-center" role="toolbar" aria-label="Toolbar with button groups">
+  
+        </div>
+        <div class="row">
+          <h5 class="card_title location">오늘의 만화
+            <button type="button" class="btn btn-dark btn_right">더보기</button>
+          </h5>
+          <div class="card-deck mt-1 mr-5 ml-5">
+  
+            <div class="card m-5 card_size">
+              <img
+                src="https://t1.daumcdn.net/cfile/tistory/23102E4457DE753A24"
+                class="card-img-top" alt="원피스" style="height: 300px">
+              <div class="card-body ml-3 mr-3">
+                <a href="#"><h5 class="card-title" style="font-size: 18px;">원피스(1999)</h5></a>
+                
+                
+  
+              </div>
+            </div>
+            <div class="card m-5 card_size">
+              <img
+                src="https://image.laftel.net/items/thumbs/big/baf931db-1cac-46b1-acad-619e5289075e.jpg"
+                class="card-img-top" alt="나루토" style="height: 300px;">
+              <div class="card-body ml-3 mr-3">
+                <a href="#"><h5 class="card-title" style="font-size: 18px;">나루토(1999)</h5></a>
+                
+  
+              </div>
+            </div>
+            <div class="card m-5 card_size">
+              <img
+                src="https://lh3.googleusercontent.com/0-uu4PdHZbVw6VvJzYRS_SLyzA8aKCBJpsz74e7bWt7oE4TH4sJ_EIfisrDMWkjfPNE"
+                class="card-img-top" alt="블리치" style="height: 300px">
+              <div class="card-body ml-3 mr-3">
+                
+                <a href="#"><h5 class="card-title" style="font-size: 18px;">블리치(1999)</h5></a>
+                
+  
+              </div>
+            </div>
+          </div>
+        </div>
+    
+    <!--내용-->
+    <table class="move">
+
+
+        <!--사람들이 지금 많이 듣고 있는 노래/브금-->
+
+        <tr>
+            <td colspan="10">
+                <h4>
+                    <br>
+                    <hr style="color: rgb(231, 229, 229); border: solid 1px; width: 1000px;">
+                    <br>
+                    사람들이 지금 많이 보고 있는 만화
+                    <button type="button" class="btn btn-dark btn_right">전체보기</button>
+                </h4>
+            </td>
+        </tr>
+        <!--사람들이 지금 많이 보고 있는 만화 1줄 , 1 4 7위-->
+
+        <tr>
+            <td rowspan="3" align="right" colspan="1" style="width: 100px;">
+
+                <a href=""><img style="width:50px; height: 80px;"
+                        src="https://t1.daumcdn.net/cfile/tistory/23102E4457DE753A24"
+                        alt="원피스"></a>
+
+            </td>
+            <td rowspan="3" style="width: 20px;">
+                <h4>
+                    <center>1</center>
+                </h4>
+            </td>
+            <td style="width: 220px;"><br><a href="#">원피스</a></td>
+
+            <td rowspan="3" align="right" colspan="1" style="width: 120px;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href=""><img style="width:50px; height: 80px;" src="https://image.aladin.co.kr/product/97/67/cover500/8953280788_1.jpg"
+                        alt="슈가슈가룬"></a>
+
+            </td>
+            <td rowspan="3">
+                <h4>
+                    <center>4</center>
+                </h4>
+            </td>
+            <td style="width: 250px;"><br><a href="">슈가슈가룬</a></td>
+
+            <td rowspan="3" align="right" colspan="2" style="width: 100px;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#"><img style="width:50px; height: 80px;"
+                        src="https://image.yes24.com/Goods/1947722/L"
+                        alt="베리베리뮤우뮤우"></a>
+
+            </td>
+            <td rowspan="3">
+                <h4>
+                    <center>7</center>
+                </h4>
+            </td>
+            <td style="width: 160px;"><br><a href="">베리베리뮤우뮤우</a></td>
+        </tr>
+        <tr>
+
+            <td><a href="#">1999</a></td>
+            <td><a href="#">2006</a></td>
+            <td><a href="#">2005</a></td>
+        </tr>
+        <tr>
+            <td>
+                <hr>
+            </td>
+            <td>
+                <hr>
+            </td>
+            <td>
+                <hr>
+            </td>
+        </tr>
+
+
+        <!--사람들이 지금 많이 읽고 있는 인소 1줄 , 2 5 8위-->
+        <tr>
+            <td rowspan="3" align="right" colspan="1" style="width: 120px;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href=""><img style="width:50px; height: 80px;"
+                        src="https://image.laftel.net/items/thumbs/big/baf931db-1cac-46b1-acad-619e5289075e.jpg"
+                        alt="나루토"></a>
+
+            </td>
+            <td rowspan="3" style="width: 20px;">
+                <h4>
+                    <center>2</center>
+                </h4>
+            </td>
+            <td style="width: 220px;"><br><a href="#">나루토</a></td>
+
+            <td rowspan="3" align="right" colspan="1" style="width: 120px;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href=""><img style="width:50px; height: 80px;"
+                        src="https://image.yes24.com/Goods/238090/L" alt="디지몬 어드밴쳐"></a>
+
+            </td>
+            <td rowspan="3">
+                <h4>
+                    <center>5</center>
+                </h4>
+            </td>
+            <td style="width: 250px;"><br><a href="">디지몬 어드밴쳐</a></td>
+
+            <td rowspan="3" align="right" colspan="2" style="width: 120px;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href=""><img style="width:50px; height: 80px;" src="https://lh3.googleusercontent.com/proxy/oATDrgmV3h2Wk1h_zW_-MPByNjlniWsGgs1FgtvcueiQfJnsqh0MerMUpfGrIcpL7QwqAYvAuLd2kEpRsQslrknkE0cUhHhgxT-VPh_xF7QxmcBSWoC8EW3kCc6CInUqS55wAJ31kB0PZWF4LtnXnVARaBhPyT34pVLIvl0K0MKfIdRwjqMoV0S14JlPWhsqZZCdC0Ijm1A22YyzjkV-tn6nMuUK50LiOuBQ_50VgbwaUWiXsJTBHgtTJVgvqEh9531qbC_AntA4kAlo6X_RlTDqd9b5aYZ_lqR2dJ5S7Az-yqKzWDnFNGeb5qn8PgTD2KxsPIivJ264fj42PJ2j4cefqh0GRch7q69a9N7mLdibQK7M1xZ_wgff7M-0E-wJVpIasawett35PfFr2r8cvGtDS8qY5-i2C4KbKA0cC6zJrrit2H_KYA"
+                        alt="꿈빛파티시엘"></a>
+
+            </td>
+            <td rowspan="3">
+                <h4>
+                    <center>8</center>
+                </h4>
+            </td>
+            <td style="width: 160px;"><br><a href="">꿈빛파티시엘</a></td>
+        </tr>
+        <tr>
+
+            <td><a href="">1999</a></td>
+            <td><a href="">1999</a></td>
+            <td><a href="">2010</a></td>
+        </tr>
+        <tr>
+            <td>
+                <hr>
+            </td>
+            <td>
+                <hr>
+            </td>
+            <td>
+                <hr>
+            </td>
+        </tr>
+
+        <!--사람들이 지금 많이 읽고 있는 인소 1줄 , 3 6 9위-->
+        <tr>
+            <td rowspan="3" align="right" colspan="1" style="width: 120px;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href=""><img style="width:50px; height: 80px;"
+                        src="https://lh3.googleusercontent.com/0-uu4PdHZbVw6VvJzYRS_SLyzA8aKCBJpsz74e7bWt7oE4TH4sJ_EIfisrDMWkjfPNE"
+                        alt="블리치"></a>
+
+            </td>
+            <td rowspan="3" style="width: 20px;">
+                <h4>
+                    <center>3</center>
+                </h4>
+            </td>
+            <td style="width: 220px;"><br><a href="">블리치</a></td>
+
+            <td rowspan="3" align="right" colspan="1" style="width: 120px;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href=""><img style="width:50px; height: 80px;" src="https://thewiki.ewr1.vultrobjects.com/users/954156f860e4f367ac023386de6ce39c4b3bfc39.jpg"
+                        alt="티미""></a>
+
+            </td>
+            <td rowspan="3">
+                <h4>
+                    <center>6</center>
+                </h4>
+            </td>
+            <td style="width: 250px;"><br><a href="">티미의못말리는 수호천사들</a></td>
+
+            <td rowspan="3" align="right" colspan="2" style="width: 120px;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href=""><img style="width:50px; height: 80px;"
+                        src="https://lh3.googleusercontent.com/proxy/z5UsgZKVrWjB1PMjDvphG4VKMUIXwY7jnOCxElPTthEIKJKlCPD804E57sWueJ6xb-hzr6A_SEP9g34ZAkYQ5-2leLuSTR67zE8Yhp05J0E-jPYkCNSFP3yiZy0Sg0qRproyrmxUattuIpL7m19PBVXarDJ9_FvGxk0LfQ"
+                        alt="따끈따끈 베이커리"></a>
+
+            </td>
+            <td rowspan="3">
+                <h4>
+                    <center>9</center>
+                </h4>
+            </td>
+            <td style="width: 160px;"><br><a href="">따끈따끈 베이커리</a></td>
+        </tr>
+        <tr>
+
+            <td><a href="">1999</a></td>
+            <td><a href="">1999</a></td>
+            <td><a href="">2005</a></td>
+        </tr>
+        <tr>
+            <td>
+                <hr>
+            </td>
+            <td>
+                <hr>
+            </td>
+            <td>
+                <hr>
+            </td>
+        </tr>
+
+
+
+        <table>
+
+
+
+            <!--오늘의 추천 만화-->
+
+            <tr>
+                <td colspan="10">
+                    <br><br><br>
+                    <hr style="color: rgb(231, 229, 229); border: solid 1px; width: 1000px; margin-left: 150px;">
+                    <h4 style="margin-left: 130px;"><br><br>오늘의 추천 만화 <button type="button"
+                            class="btn btn-dark btn_right">전체보기</button></h4>
+                    <br>
+
+                </td>
+            </tr>
+
+            <tr class="center_new">
+
+                <td colspan="8">
+                    <div class="center_new">
+                        <a href=""><img style="width:130px; height: 200px;"
+                                src="https://lh3.googleusercontent.com/proxy/TE9l81vRNSCfuD7mYyNzsF-rXBFp7sDSBpvxxGV02yc-9FXdMybd6RjRuuoktW_OjZApIpSHNvrEirSRv-Ha4Ui4t0FfI1XjWfiSc6Kp8D3_" alt="라라의스타일기"></a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href=""><img style="width:130px; height: 200px;"
+                                src="https://t1.daumcdn.net/cfile/tistory/21055F37527A321A31" alt="학원앨리스"></a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href=""><img style="width:130px; height: 200px;"
+                                src="https://image.yes24.com/momo/TopCate46/MidCate06/4551178.jpg"
+                                alt="다다다"></a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href=""><img style="width:130px; height: 200px;"
+                                src="https://image.laftel.net/items/thumbs/large/54e626a6-f66d-4f83-a25a-746ea98d33ef.jpg"
+                                alt="디지몬프론티어"></a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href=""><img style="width:130px; height: 200px;"
+                                src="https://image.laftel.net/items/thumbs/large/8609a3d4-d39c-4c8d-a85e-3b7ecf36c9fc.jpg"
+                                alt="디지몬테이머즈"></a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+
+
+
+
+                </td>
+
+
+            </tr>
+        </table>
+
+
+        </tbody>
+
+
+
+
+    </table>
+    <!--하단-->
+
+    <tfoot>
+
+        <div class="footer mt-5 bg-light">
+            <div class="row ml-3 mr-4 mt-3 pl-4 pr-5 pt-5">
+                <div class="col">
+                    <ul class="company">
+                        <h5 class="pb-3">COMPANY</h5>
+                        <li class="pb-1"><a href="">회사소개</a></li>
+                        <li><a href="">이용방법</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="category">
+                        <h5 class="pb-3">CATEGORY</h5>
+                        <li class="pb-1"><a href="./inso.html">인소</a></li>
+                        <li class="pb-1"><a href="./sing.html">브금</a></li>
+                        <li class="pb-1"><a href="./cartoon.html">하이라이트 영상</a></li>
+                        <li class="pb-1"><a href="./post.html">과거공유</a></li>
+
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="introduction">
+                        <h5 class="pb-3">ABOUT</h5>
+                        <li class="pb-1"><a href="">채용 공고</a></li>
+                        <li class="pb-1"><a href="">도움말</a></li>
+                        <li class="pb-1"><a href="">채팅 상담</a></li>
+                        <li class="pb-1"><a href="">제휴/도매/입점 안내</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="account">
+                        <h5 class="pb-3">ACCOUNT</h5>
+                        <li class="pb-1"><a href="./login.html">회원가입/로그인</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+
+                    <ul class="about">
+                        <h5 class="pb-3">나 때는 말이야</h5>
+                        <li class="pb-1">서울특별시 강남구 삼성동</li>
+                        <li class="pb-1">사업자등록번호: 123-45-67890</li>
+                        <li class="pb-1">대표: 신 산하</li>
+                        <li class="pb-1">Phone: 1322-2222</li>
+                        <li class="pb-5">Email: tksgk2598@naver.com</li>
+                    </ul>
+
+
+
+                </div>
+            </div>
+            <div class="row ml-4 mr-4 mt-3 pl-5 pr-5 pt-5 pb-5">
+
+
+                <div class="col"></div>
+                <div class="col"></div>
+
+                <div class="col text-right">
+                    <h7 class="pb-3"><a href="">개인정보취급방침 | </a></h7>
+                    <h7 class="pb-3"><a href="">이용약관</a></h7>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </tfoot>
+
+
+
+</body>
+
+</html>

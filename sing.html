@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>노래_나 때는 말이야</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="inso.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <thead>
+
+        <!--회원가입, 로그인, 이벤트 -->
+        <nav class="navbar navbar-light bg-dark row">
+            <a class="navbar-brand nev_right" href="./join.html" style="color: white;">회원가입</a>
+            <a class="navbar-brand menu_1" href="./login.html" style="color: white;">로그인</a>
+            <a class="navbar-brand menu_1" href="#" style="color: white;">이벤트</a>
+            <a class="navbar-brand menu_1" href="#" style="color: white;">마이페이지</a>
+        </nav>
+
+        <!--메뉴바-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning sticky-top">
+            <a class="navbar-brand" href="./index.html"><img width="150px" src="img/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./inso.html">인소<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sing.html">노래/브금</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            하이라이트 영상
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="./cartoon.html">만화</a>
+                            <a class="dropdown-item" href="#">예능(준비중)</a>
+                            <a class="dropdown-item" href="#">드라마(준비중)</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./post.html">과거공유</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="무엇을 보고싶나요?" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+
+
+
+    </thead>
+
+   
+    <!--태그-->
+    <div class="central0"><b1>태그를 선택하여 결과를 확인하세요.(한 개의 주제 선택 가능)</b1></div>
+    <div>
+    <button type="button" class="btn btn-outline-warning central0">#애니메이션</button>
+    <button type="button" class="btn btn-outline-warning central">#드라마/예능</button>
+    <button type="button" class="btn btn-outline-warning central">#게임</button>
+    <button type="button" class="btn btn-outline-warning central">#브금만</button>
+    <button type="button" class="btn btn-outline-warning central">#노래만</button>
+    </div>
+
+    
+    <!--오늘의 노래&브금-->
+   
+
+    <div class="container-fluid ">
+        <br><br><br><br>
+    <hr style="color: rgb(231, 229, 229); border: solid 1px; width: 1000px;">
+    <br>
+        <div class="btn-toolbar mb-5 btn-center" role="toolbar" aria-label="Toolbar with button groups">
+  
+        </div>
+        <div class="row">
+          <h5 class="card_title location">오늘의 노래&브금
+            <button type="button" class="btn btn-dark btn_right">더보기</button>
+          </h5>
+          <div class="card-deck mt-1 mr-5 ml-5">
+  
+            <div class="card m-5 card_size">
+              <img
+                src="https://i.ytimg.com/vi/kkU9-8hMWYk/hqdefault.jpg"
+                class="card-img-top" alt="그랜드체이스-희망" style="height: 300px">
+              <div class="card-body ml-3 mr-3">
+                <a href="#"><h5 class="card-title" style="font-size: 18px;">희망-그랜드체이스</h5></a>
+                
+                
+  
+              </div>
+            </div>
+            <div class="card m-5 card_size">
+              <img
+                src="https://lh3.googleusercontent.com/proxy/z0ZJhXskZpHjHifi78-zAEGeMGqGajlZu-xpqiDDvixwQblzqBIFdOrYzgBfP3vU8PCRl5lrtcDpFn3GjaDxt-4-U0ZIsLkeIOqi1F3lOVsjzJmcCbx0wIBAgOa7lB8gWPyY"
+                class="card-img-top" alt="유혹의 소나타-아이비" style="height: 300px;">
+              <div class="card-body ml-3 mr-3">
+                <a href="#"><h5 class="card-title" style="font-size: 18px;">유혹의소나타-아이비</h5></a>
+                
+  
+              </div>
+            </div>
+            <div class="card m-5 card_size">
+              <img
+                src="https://image.bugsm.co.kr/album/images/500/1749/174973.jpg"
+                class="card-img-top" alt="내머리가 나빠서" style="height: 300px">
+              <div class="card-body ml-3 mr-3">
+                
+                <a href="#"><h5 class="card-title" style="font-size: 18px;">내머리가 나빠서-꽃보다남자</h5></a>
+                
+  
+              </div>
+            </div>
+          </div>
+        </div>
+    
+    <!--내용-->
+    <table class="move">
+
+
+        <!--사람들이 지금 많이 듣고 있는 노래/브금-->
+
+        <tr>
+            <td colspan="10">
+                <h4>
+                    <br>
+                    <hr style="color: rgb(231, 229, 229); border: solid 1px; width: 1000px;">
+                    <br>
+                    사람들이 지금 많이 듣고 있는 노래/브금
+                    <button type="button" class="btn btn-dark btn_right">전체보기</button>
+                </h4>
+            </td>
+        </tr>
+        <!--사람들이 지금 많이 읽고 있는 인소 1줄 , 1 4 7위-->
+
+        <tr>
+            <td rowspan="3" align="right" colspan="1" style="width: 100px;">
+
+                <a href=""><img style="width:50px; height: 80px;"
+                        src="https://image.bugsm.co.kr/album/images/500/2145/214522.jpg"
+                        alt="해바라기"></a>
+
+            </td>
+            <td rowspan="3" style="width: 20px;">
+                <h4>
+                    <center>1</center>
+                </h4>
+            </td>
+            <td style="width: 220px;"><br><a href="#">해바라기</a></td>
+
+            <td rowspan="3" align="right" colspan="1" style="width: 120px;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href=""><img style="width:50px; height: 80px;" src="https://www.weiv.co.kr/wp-content/uploads/2014/05/20120228140954_0.jpg"
+                        alt="해바라기"></a>
+
+            </td>
+            <td rowspan="3">
+                <h4>
+                    <center>4</center>
+                </h4>
+            </td>
+            <td style="width: 250px;"><br><a href="">롤리폴리</a></td>
+
+            <td rowspan="3" align="right" colspan="2" style="width: 100px;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#"><img style="width:50px; height: 80px;"
+                        src="https://upload.wikimedia.org/wikipedia/ko/1/1f/%EC%86%8C%EB%85%80%EC%8B%9C%EB%8C%80_-_Gee_%28EP%29.jpg"
+                        alt="Gee"></a>
+
+            </td>
+            <td rowspan="3">
+                <h4>
+                    <center>7</center>
+                </h4>
+            </td>
+            <td style="width: 160px;"><br><a href="">Gee</a></td>
+        </tr>
+        <tr>
+
+            <td><a href="#">gavi nj</a></td>
+            <td><a href="">티아라</a></td>
+            <td><a href="">소녀시대</a></td>
+        </tr>
+        <tr>
+            <td>
+                <hr>
+            </td>
+            <td>
+                <hr>
+            </td>
+            <td>
+                <hr>
+            </td>
+        </tr>
+
+
+        <!--사람들이 지금 많이 읽고 있는 인소 1줄 , 2 5 8위-->
+        <tr>
+            <td rowspan="3" align="right" colspan="1" style="width: 120px;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href=""><img style="width:50px; height: 80px;"
+                        src="https://image.bugsm.co.kr/album/images/500/1798/179808.jpg"
+                        alt="심장이 없어"></a>
+
+            </td>
+            <td rowspan="3" style="width: 20px;">
+                <h4>
+                    <center>2</center>
+                </h4>
+            </td>
+            <td style="width: 220px;"><br><a href="">심장이없어</a></td>
+
+            <td rowspan="3" align="right" colspan="1" style="width: 120px;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href=""><img style="width:50px; height: 80px;"
+                        src="https://image.bugsm.co.kr/album/images/500/3341/334191.jpg" alt="심장이없어"></a>
+
+            </td>
+            <td rowspan="3">
+                <h4>
+                    <center>5</center>
+                </h4>
+            </td>
+            <td style="width: 250px;"><br><a href="">후유증</a></td>
+
+            <td rowspan="3" align="right" colspan="2" style="width: 120px;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href=""><img style="width:50px; height: 80px;" src="https://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/079/985/413/79985413_1511524113875_1_600x600.JPG"
+                        alt="링딩동"></a>
+
+            </td>
+            <td rowspan="3">
+                <h4>
+                    <center>8</center>
+                </h4>
+            </td>
+            <td style="width: 160px;"><br><a href="">링딩동</a></td>
+        </tr>
+        <tr>
+
+            <td><a href="">에이트</a></td>
+            <td><a href="">제국의아이들</a></td>
+            <td><a href="">샤이니</a></td>
+        </tr>
+        <tr>
+            <td>
+                <hr>
+            </td>
+            <td>
+                <hr>
+            </td>
+            <td>
+                <hr>
+            </td>
+        </tr>
+
+        <!--사람들이 지금 많이 읽고 있는 인소 1줄 , 3 6 9위-->
+        <tr>
+            <td rowspan="3" align="right" colspan="1" style="width: 120px;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href=""><img style="width:50px; height: 80px;"
+                        src="https://pds.joins.com/news/component/htmlphoto_mmdata/2010/07/30/htm_201007301507590107000001070100-001.jpg"
+                        alt="밥만 잘 먹더라"></a>
+
+            </td>
+            <td rowspan="3" style="width: 20px;">
+                <h4>
+                    <center>3</center>
+                </h4>
+            </td>
+            <td style="width: 220px;"><br><a href="">밥만잘먹더라</a></td>
+
+            <td rowspan="3" align="right" colspan="1" style="width: 120px;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href=""><img style="width:50px; height: 80px;" src="https://t1.daumcdn.net/movie/7da2ccc618ca4dbb971379944a939fbf1541747671440"
+                        alt="시간을 달리는 소녀"></a>
+
+            </td>
+            <td rowspan="3">
+                <h4>
+                    <center>6</center>
+                </h4>
+            </td>
+            <td style="width: 250px;"><br><a href="">시간을 달리는 소녀ost</a></td>
+
+            <td rowspan="3" align="right" colspan="2" style="width: 120px;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href=""><img style="width:50px; height: 80px;"
+                        src="https://i.ytimg.com/vi/kkU9-8hMWYk/hqdefault.jpg"
+                        alt="희망"></a>
+
+            </td>
+            <td rowspan="3">
+                <h4>
+                    <center>9</center>
+                </h4>
+            </td>
+            <td style="width: 160px;"><br><a href="">희망</a></td>
+        </tr>
+        <tr>
+
+            <td><a href="">옴므</a></td>
+            <td><a href="">시간을달리는소녀</a></td>
+            <td><a href="">그랜드체이스</a></td>
+        </tr>
+        <tr>
+            <td>
+                <hr>
+            </td>
+            <td>
+                <hr>
+            </td>
+            <td>
+                <hr>
+            </td>
+        </tr>
+
+
+
+        <table>
+
+
+
+            <!--오늘의 추천 노래/브금-->
+
+            <tr>
+                <td colspan="10">
+                    <br><br><br>
+                    <hr style="color: rgb(231, 229, 229); border: solid 1px; width: 1000px; margin-left: 150px;">
+                    <h4 style="margin-left: 130px;"><br><br>오늘의 추천 노래/브금 <button type="button"
+                            class="btn btn-dark btn_right">전체보기</button></h4>
+                    <br>
+
+                </td>
+            </tr>
+
+            <tr class="center_new">
+
+                <td colspan="8">
+                    <div class="center_new">
+                        <a href=""><img style="width:130px; height: 200px;"
+                                src="https://i1.sndcdn.com/artworks-000343120902-xpv93u-t500x500.jpg" alt="터치러브"></a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href=""><img style="width:130px; height: 200px;"
+                                src="https://lh3.googleusercontent.com/proxy/iHsJqDCKHhuGE5a1aXhInJPxZNp3eAPranOa5JFBMA41x5ITwThLeODN9lLtKMqGDS3SndmL63TX39R47m0SJO8fs3WTA9OvMX5P70pIkx3Vq7hiCJS8KqwTQoeJ4w8vDVjP4UeWPRlEIuy-jByShmqYIsdoSchBWjkqwmvWS6BlXKWxIv3VNGrvHCyxczDQGzGXF_DpxRDOseiTV_QA7bblZk2KDpuR-uOwVxxsyDrz1Dihf4JNlPIlIigMEHfHmgdnOXWpW4-GxktsZhPRKbGOnlUdsP83pHiYwtUBhTfA8B6sBFuL2PiY-Z--pLfGXAWKO_FhiiOfzAFNVWhKLiLe6mNQ3xK7OnaRrXiw_YBpbuwomtEfklyQaqB6_E1VRoyQFHW5c3fFIfGilKmQ70oFCw" alt="메이플스토리"></a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href=""><img style="width:130px; height: 200px;"
+                                src="https://i.ytimg.com/vi/shBmqNF5Ei0/hqdefault.jpg"
+                                alt="꿈빛파티시엘"></a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href=""><img style="width:130px; height: 200px;"
+                                src="https://image.yes24.com/goods/3204094/L"
+                                alt="프리티걸"></a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href=""><img style="width:130px; height: 200px;"
+                                src="https://mblogthumb-phinf.pstatic.net/MjAxOTAzMTRfMjMx/MDAxNTUyNDkwMTQzMzk5.HY2KlTyVfOfxZpc7CKfYFQPy09wMVz1XUpEvbJESk0sg.VkHMcU5XnH7b7tK248cnrEdfey8e60lx6fH2gGhV9vEg.JPEG.ahrhddl/SE-ecc388b8-ee71-4b90-ad0f-48f2f0d6fddd.jpg?type=w800"
+                                alt="우리의꿈"></a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+
+
+
+
+                </td>
+
+
+            </tr>
+        </table>
+
+
+        </tbody>
+
+
+
+
+    </table>
+    <!--하단-->
+
+    <tfoot>
+
+        <div class="footer mt-5 bg-light">
+            <div class="row ml-3 mr-4 mt-3 pl-4 pr-5 pt-5">
+                <div class="col">
+                    <ul class="company">
+                        <h5 class="pb-3">COMPANY</h5>
+                        <li class="pb-1"><a href="">회사소개</a></li>
+                        <li><a href="">이용방법</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="category">
+                        <h5 class="pb-3">CATEGORY</h5>
+                        <li class="pb-1"><a href="./inso.html">인소</a></li>
+                        <li class="pb-1"><a href="./sing.html">브금</a></li>
+                        <li class="pb-1"><a href="./cartoon.html">하이라이트 영상</a></li>
+                        <li class="pb-1"><a href="./post.html">과거공유</a></li>
+
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="introduction">
+                        <h5 class="pb-3">ABOUT</h5>
+                        <li class="pb-1"><a href="">채용 공고</a></li>
+                        <li class="pb-1"><a href="">도움말</a></li>
+                        <li class="pb-1"><a href="">채팅 상담</a></li>
+                        <li class="pb-1"><a href="">제휴/도매/입점 안내</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="account">
+                        <h5 class="pb-3">ACCOUNT</h5>
+                        <li class="pb-1"><a href="./login.html">회원가입/로그인</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+
+                    <ul class="about">
+                        <h5 class="pb-3">나 때는 말이야</h5>
+                        <li class="pb-1">서울특별시 강남구 삼성동</li>
+                        <li class="pb-1">사업자등록번호: 123-45-67890</li>
+                        <li class="pb-1">대표: 신 산하</li>
+                        <li class="pb-1">Phone: 1322-2222</li>
+                        <li class="pb-5">Email: tksgk2598@naver.com</li>
+                    </ul>
+
+
+
+                </div>
+            </div>
+            <div class="row ml-4 mr-4 mt-3 pl-5 pr-5 pt-5 pb-5">
+
+
+                <div class="col"></div>
+                <div class="col"></div>
+
+                <div class="col text-right">
+                    <h7 class="pb-3"><a href="">개인정보취급방침 | </a></h7>
+                    <h7 class="pb-3"><a href="">이용약관</a></h7>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </tfoot>
+
+
+
+</body>
+
+</html>

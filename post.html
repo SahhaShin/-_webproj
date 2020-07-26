@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>과거공유커뮤니티_나 때는 말이야</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+
+        <!--경고창-->
+    <script>
+
+        function myFunction() {
+        
+        alert("로그인이 필요합니다.");
+        
+        }
+        
+    </script>
+    <style>
+        @font-face {
+            font-family: 'KyoboHand';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Binggrae-Bold';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae-Bold.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        * {
+            font-family: 'Binggrae-Bold';
+
+        }
+
+        .center {
+            margin-left: 40%;
+            margin-top: 1%;
+        }
+
+
+        .nev_right {
+            margin-left: 1000px;
+            font-size: small;
+        }
+
+        .menu_1 {
+            font-size: small;
+            color: white;
+        }
+
+        a:link {
+            text-decoration: none;
+            color: #333333;
+        }
+
+        a:visited {
+            text-decoration: none;
+            color: #333333;
+        }
+
+        a:active {
+            text-decoration: none;
+            color: #333333;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+
+        ul {
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <thead>
+
+        <!--회원가입, 로그인, 이벤트 -->
+        <nav class="navbar navbar-light bg-dark row">
+            <a class="navbar-brand nev_right" href="./join.html" style="color: white;">회원가입</a>
+            <a class="navbar-brand menu_1" href="./login.html" style="color: white;">로그인</a>
+            <a class="navbar-brand menu_1" href="#" style="color: white;">이벤트</a>
+            <a class="navbar-brand menu_1" href="#" style="color: white;">마이페이지</a>
+        </nav>
+
+        <!--메뉴바-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning sticky-top">
+            <a class="navbar-brand" href="./index.html"><img width="150px" src="img/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./inso.html">인소<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sing.html">노래/브금</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            하이라이트 영상
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="./cartoon.html">만화</a>
+                            <a class="dropdown-item" href="#">예능(준비중)</a>
+                            <a class="dropdown-item" href="#">드라마(준비중)</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./post.html">과거공유</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="무엇을 보고싶나요?" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+
+
+
+    </thead>
+    <br><br><br>
+    <div>
+        <div class="shadow p-3 bg-white rounded">
+            <h1>과거공유 커뮤니티</h1>
+
+            <hr>
+
+            <button type="button" class="btn btn-info" onclick="myFunction()">글쓰기</button>
+
+            <table class="table mt-3">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">게시번호</th>
+                        <th scope="col">ID</th>
+                        <th scope="col">제목</th>
+                        <th scope="col">공감수</th>
+                        <th scope="col">조회수</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">50</th>
+                        <td>tksgk</td>
+                        <td><a href="#">나의 어릴 적</a></td>
+                        <td>2</td>
+                        <td>10</td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">49</th>
+                        <td>alsgk</td>
+                        <td><a href="#">동심이들 이거 알아?</a></td>
+                        <td>52</td>
+                        <td>200</td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">48</th>
+                        <td>KIM123</td>
+                        <td><a href="#">와 진짜 추억이다 ...</a></td>
+                        <td>20</td>
+                        <td>100</td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">47</th>
+                        <td>LEE34</td>
+                        <td><a href="#">98년생 집합!</a></td>
+                        <td>60</td>
+                        <td>200</td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">46</th>
+                        <td>Kang99</td>
+                        <td><a href="#">너네 그랜드체이스 알아?</a></td>
+                        <td>10</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">45</th>
+                        <td>Hong2424</td>
+                        <td><a href="#">동심이들 나 오늘 슈가슈가룬 봄</a></td>
+                        <td>22</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">44</th>
+                        <td>tntks2598</td>
+                        <td><a href="#">동심이들 다마고치 알아?</a></td>
+                        <td>60</td>
+                        <td>200</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">43</th>
+                        <td>wjdal11</td>
+                        <td><a href="#">와 나때도 이거 있었는데</a></td>
+                        <td>2</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">42</th>
+                        <td>tkatjq0909</td>
+                        <td><a href="#">옛날에 이거 ㄹㅇ 유행</a></td>
+                        <td>68</td>
+                        <td>250</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">41</th>
+                        <td>ehgus23</td>
+                        <td><a href="#">이거 뭔지 아시는분...</a></td>
+                        <td>2</td>
+                        <td>50</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br><br><br>
+            <nav aria-label="..." class="center">
+                <ul class="pagination">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
+                            << </a>
+                    </li>
+
+                    <li class="page-item active" aria-current="page">
+                        <a class="page-link" href="#">1 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">>></a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </div>
+
+    <tfoot>
+        <br><br>
+        <div class="footer mt-5 bg-light">
+            <div class="row ml-3 mr-4 mt-3 pl-4 pr-5 pt-5">
+                <div class="col">
+                    <ul class="company">
+                        <h5 class="pb-3">COMPANY</h5>
+                        <li class="pb-1"><a href="">회사소개</a></li>
+                        <li><a href="">이용방법</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="category">
+                        <h5 class="pb-3">CATEGORY</h5>
+                        <li class="pb-1"><a href="./inso.html">인소</a></li>
+                        <li class="pb-1"><a href="./sing.html">노래/브금</a></li>
+                        <li class="pb-1"><a href="./cartoon.html">하이라이트 영상</a></li>
+                        <li class="pb-1"><a href="./post.html">과거공유</a></li>
+
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="introduction">
+                        <h5 class="pb-3">ABOUT</h5>
+                        <li class="pb-1"><a href="">채용 공고</a></li>
+                        <li class="pb-1"><a href="">도움말</a></li>
+                        <li class="pb-1"><a href="">채팅 상담</a></li>
+                        <li class="pb-1"><a href="">제휴/도매/입점 안내</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="account">
+                        <h5 class="pb-3">ACCOUNT</h5>
+                        <li class="pb-1"><a href="./login.html">회원가입/로그인</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+
+                    <ul class="about">
+                        <h5 class="pb-3">나 때는 말이야</h5>
+                        <li class="pb-1">서울특별시 강남구 삼성동</li>
+                        <li class="pb-1">사업자등록번호: 123-45-67890</li>
+                        <li class="pb-1">대표: 신 산하</li>
+                        <li class="pb-1">Phone: 1322-2222</li>
+                        <li class="pb-5">Email: tksgk2598@naver.com</li>
+                    </ul>
+
+
+
+                </div>
+            </div>
+            <div class="row ml-4 mr-4 mt-3 pl-5 pr-5 pt-5 pb-5">
+
+
+                <div class="col"></div>
+                <div class="col"></div>
+
+                <div class="col text-right">
+                    <h7 class="pb-3"><a href="">개인정보취급방침 | </a></h7>
+                    <h7 class="pb-3"><a href="">이용약관</a></h7>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </tfoot>
+
+
+
+</body>
+
+
+</html>

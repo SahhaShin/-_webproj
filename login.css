@@ -1,0 +1,60 @@
+@font-face { font-family: 'KyoboHand'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Binggrae-Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae-Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
+*{
+    font-family: 'Binggrae-Bold';
+    
+}
+.outline{
+    
+    margin-top: 5%;
+
+}
+.input{
+    border-top: 0em; border-left: 0em; border-right: 0em;
+    margin-top: 5px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.input2{
+    
+    margin-top: 30px;
+   
+}
+.main{
+    text-align: center;
+    text-size-adjust: 20em;
+}
+
+.brbr{
+    margin-top: 5%;
+    margin-left: 35%;
+}
+.br_g{
+    margin-left: 41%;
+}
+.img_center{
+    margin-right: 580px;
+    margin-left: 600px;
+}
+.margin_le{
+    margin-left: 400px;
+}
+a:link {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:active {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}

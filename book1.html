@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>그놈은 멋있었다1_나때는말이야</title>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="book1.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+    <!--경고창-->
+    <script>
+
+        function myFunction() {
+        
+        alert("로그인이 필요합니다.");
+        
+        }
+        
+    </script>
+</head>
+
+<body>
+    <thead>
+
+        <!--회원가입, 로그인, 이벤트 -->
+        <nav class="navbar navbar-light bg-dark row">
+            <a class="navbar-brand nev_right" href="./join.html" style="color: white;">회원가입</a>
+            <a class="navbar-brand menu_1" href="./login.html" style="color: white;">로그인</a>
+            <a class="navbar-brand menu_1" href="#" style="color: white;">동심충전</a>
+            <a class="navbar-brand menu_1" href="#" style="color: white;">마이페이지</a>
+        </nav>
+
+        <!--메뉴바-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning sticky-top">
+            <a class="navbar-brand" href="./index.html"><img width="150px" src="img/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./inso.html">인소<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sing.html">노래/브금</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            하이라이트 영상
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="./cartoon.html">만화</a>
+                            <a class="dropdown-item" href="#">예능(준비중)</a>
+                            <a class="dropdown-item" href="#">드라마(준비중)</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./post.html">과거공유</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="무엇을 보고싶나요?" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+
+
+
+        <!--책소개 앞부분-->
+        <div>
+
+            <br><br>
+            <div>
+                <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2Fcy3D6E%2FbtqzG9BMUCs%2Fe32FVG8y0KLReVIouAjDRK%2Fimg.jpg"
+                    class="card-img-top" alt="...">
+
+
+
+
+                <div class="info-right">
+                    <p style="color: gray;">
+                        인소 > 로맨스
+                    </p>
+                    <p style="font-size: 30px;">
+                        그놈은 멋있었다 1
+                    </p>
+                    <span style="color: red; font-size: 18px;">25%</span> &nbsp <span
+                        style="font-size: 18px; text-decoration: line-through; color: gray;">4,000동심</span>
+                    <p style="font-size: 36px; font-weight: bold;">
+                        3,000동심
+                    </p>
+                    <hr style="color: rgb(231, 229, 229); border: solid 1px; width: 430px;">
+                    <span style="font-size: 15px;">귀여니</span>&nbsp&nbsp&nbsp&nbsp
+                    <span style="color: gray; font-size: 15px;">저</span>
+                    <p>
+                        <span style="font-size: 15px;">반디
+                        </span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <span style="color: gray; font-size: 15px;">출판</span>
+                    </p>
+                    <span>
+
+                        <button type="button" class="btn btn-dark btn_wid" onclick="myFunction()">1권 구매하기</button>
+                    </span>
+                    <hr style="color: rgb(231, 229, 229); border: solid 1px; width: 430px;">
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </thead>
+
+
+    <tbody>
+        <div class="intro_book">
+
+
+
+            <hr style="color: rgb(231, 229, 229); border: solid 1px; width: 1000px;">
+            <div>
+                <br><br><br>
+                <h3 class="mar_le">책 구매</h3>
+                <hr style="color: rgb(45, 63, 100); border: solid 1px; width: 800px;">
+                <table border="1" class="full_size_tr">
+                    <tr>
+                        <td>
+                            <div class="form-check">
+                                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox"
+                                    value="option1" aria-label="...">
+                                <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2Fcy3D6E%2FbtqzG9BMUCs%2Fe32FVG8y0KLReVIouAjDRK%2Fimg.jpg"
+                                    class="card-img-book" alt="...">
+                                그놈은 멋있었다1 1화
+                                <button type="button" class="btn btn-warning btn_right" onclick="myFunction()">구매</button>
+                            </div>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="form-check">
+                                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox"
+                                    value="option1" aria-label="...">
+                                <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2Fcy3D6E%2FbtqzG9BMUCs%2Fe32FVG8y0KLReVIouAjDRK%2Fimg.jpg"
+                                    class="card-img-book" alt="...">
+                                그놈은 멋있었다1 2화
+                                <button type="button" class="btn btn-warning btn_right" onclick="myFunction()">구매</button>
+                            </div>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="form-check">
+                                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox"
+                                    value="option1" aria-label="...">
+                                <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2Fcy3D6E%2FbtqzG9BMUCs%2Fe32FVG8y0KLReVIouAjDRK%2Fimg.jpg"
+                                    class="card-img-book" alt="...">
+                                그놈은 멋있었다1 3화
+                                <button type="button" class="btn btn-warning btn_right" onclick="myFunction()">구매</button>
+                            </div>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="form-check">
+                                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox"
+                                    value="option1" aria-label="...">
+                                <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2Fcy3D6E%2FbtqzG9BMUCs%2Fe32FVG8y0KLReVIouAjDRK%2Fimg.jpg"
+                                    class="card-img-book" alt="...">
+                                그놈은 멋있었다1 4화
+                                <button type="button" class="btn btn-warning btn_right" onclick="myFunction()">구매</button>
+                            </div>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="form-check">
+                                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox"
+                                    value="option1" aria-label="...">
+                                <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2Fcy3D6E%2FbtqzG9BMUCs%2Fe32FVG8y0KLReVIouAjDRK%2Fimg.jpg"
+                                    class="card-img-book" alt="...">
+                                그놈은 멋있었다1 5화
+                                <button type="button" class="btn btn-warning btn_right" onclick="myFunction()">구매</button>
+                            </div>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="form-check">
+                                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox"
+                                    value="option1" aria-label="...">
+                                <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2Fcy3D6E%2FbtqzG9BMUCs%2Fe32FVG8y0KLReVIouAjDRK%2Fimg.jpg"
+                                    class="card-img-book" alt="...">
+                                그놈은 멋있었다1 6화
+                                <button type="button" class="btn btn-warning btn_right" onclick="myFunction()">구매</button>
+                            </div>
+
+                        </td>
+
+
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="form-check">
+                                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox"
+                                    value="option1" aria-label="...">
+                                <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2Fcy3D6E%2FbtqzG9BMUCs%2Fe32FVG8y0KLReVIouAjDRK%2Fimg.jpg"
+                                    class="card-img-book" alt="...">
+                                그놈은 멋있었다1 7화
+                                <button type="button" class="btn btn-warning btn_right" onclick="myFunction()">구매</button>
+                            </div>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="form-check">
+                                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox"
+                                    value="option1" aria-label="...">
+                                <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2Fcy3D6E%2FbtqzG9BMUCs%2Fe32FVG8y0KLReVIouAjDRK%2Fimg.jpg"
+                                    class="card-img-book" alt="...">
+                                그놈은 멋있었다1 8화
+                                <button type="button" class="btn btn-warning btn_right" onclick="myFunction()">구매</button>
+                            </div>
+
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <div class="form-check">
+                                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox"
+                                    value="option1" aria-label="...">
+                                <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2Fcy3D6E%2FbtqzG9BMUCs%2Fe32FVG8y0KLReVIouAjDRK%2Fimg.jpg"
+                                    class="card-img-book" alt="...">
+                                그놈은 멋있었다1 9화
+                                <button type="button" class="btn btn-warning btn_right" onclick="myFunction()">구매</button>
+                            </div>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="form-check">
+                                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox"
+                                    value="option1" aria-label="...">
+                                <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2Fcy3D6E%2FbtqzG9BMUCs%2Fe32FVG8y0KLReVIouAjDRK%2Fimg.jpg"
+                                    class="card-img-book" alt="...">
+                                그놈은 멋있었다1 10화
+                                <button type="button" class="btn btn-warning btn_right" onclick="myFunction()">구매</button>
+                            </div>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="button" class="btn btn-light border border-dark btn_wid2">더보기</button>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+        <div>
+            <br><br><br>
+            <h3 class="mar_le">책 소개</h3>
+            <hr style="color: rgb(45, 63, 100); border: solid 1px; width: 800px;">
+            <div class="mar_le_ri">
+                <br>
+                어느 날, 수업을 빼먹기 위해 담을 넘다 우연히 이루어진 두 남녀 고등학생의 첫 키스!
+                결혼할 여자가 아니면 그 누구와도 손을 잡지 않는다는 신조를 가지고 있던 4대 천왕 꽃미남 지은성과 상큼 발랄하기는 하지만 그저 평범하기만 한 한예원의 만남은 그렇게 시작되고….
+                급기야 은성은 자신의 입술을 훔친 예원에게 여자친구가 되어줄 것을 협박하고, 예원도 항상 괴팍하고 제멋대로인 반항아 은성을 조금씩 이해하며 다가서는데….
+            </div>
+
+        </div>
+
+
+        <div>
+            <br><br><br>
+            <h3 class="mar_le">저자 소개</h3>
+            <hr style="color: rgb(45, 63, 100); border: solid 1px; width: 800px;">
+            <div class="mar_le_ri">
+                <br>
+                저자 - 귀여니(본명 : 이윤세)<br>
+                고등학교 재학시절 인터넷에 작품을 연재하면서 큰 인기를 모은 인터넷 소설의 대표작가로, 십대의 문화코드를 이끄는 작가로 선풍적 인기를 끌었다. 현재 성균관대학교 연기예술학과에 다니며
+                소설, 시, 희곡 등 장르를 넘나드는 다양한 글로 독자와 만나고 있다.<br><br>
+
+                고등학교 때 인터넷에 연재한 『그놈은 멋있었다』를 비롯해 총 7편의 소설을 썼으며, 중국, 일본, 태국에 번역되면서 국제적인 베스트셀러 작가가 되었다. 『늑대의
+                유혹』『도레미파솔라시도』『내 남자친구에게』 등 여러 작품들이 영화화되어 다양한 매체의 인정을 받았고, 귀사모 카페에도 100만 회원이 가입되어 있으며 다수의 매니아팬층을 거느리고 있는
+                작가이다.<br>
+            </div>
+
+        </div>
+
+
+
+
+        <div>
+            <br><br><br>
+            <h3 class="mar_le">대표 저서</h3>
+            <hr style="color: rgb(45, 63, 100); border: solid 1px; width: 800px;">
+            <div class="mar_le_ri">
+                <br>
+                <a href="book1.html"><img class="represent_book" src="https://img.ridicdn.net/cover/160000010/xxlarge" alt="대표1"></a>
+                <a href="#"><img class="represent_book" src="https://img.ridicdn.net/cover/160000017/xxlarge" alt="대표2"></a>
+                <a href="#"><img class="represent_book" src="https://img.ridicdn.net/cover/160000004/xxlarge" alt="대표3"></a>
+
+
+            </div>
+
+        </div>
+
+
+
+        <div>
+            <br><br><br>
+            <h3 class="mar_le">리뷰</h3>
+            <hr style="color: rgb(45, 63, 100); border: solid 1px; width: 800px;">
+            <div class="input-group drop_size">
+                <select class="custom-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+                    <option selected>별점을 매겨주세요.</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <div class="mar_le_ri">
+                <br>
+                <input class="form-control mr-sm-2 review_he" type="search" placeholder="리뷰를 남겨주세요."
+                    aria-label="Search">
+
+            </div>
+
+            <div class="review_le">
+
+                <button type="button" class="btn btn-warning btn_right" onclick="myFunction()">리뷰쓰기</button>
+                <br><br>
+
+            </div>
+
+            <!--리뷰댓글-->
+            <div class="review">
+                <hr style="color: rgb(231, 229, 229); border: solid 1px; width: 800px;">
+                <table class="full_size_tr">
+                    <tr>
+                        <td>4점</td>
+                        <td>너무 재밌음</td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" class="review_re">
+
+                            <button type="button" class="btn btn-dark btn_right review_re" onclick="myFunction()">공감 1</button>
+
+
+                            <button class="btn btn-dark re_wich" type="button" data-toggle="collapse"
+                                data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+                                댓글
+                            </button>
+                            <br><br>
+                            <div class="collapse" id="collapseExample1">
+                                <div class="card card-body">
+                                    <div>
+
+                                        <input class="form-control" type="search" placeholder="댓글을 남겨주세요."
+                                            aria-label="Search" style="width: 700px; height: 100px">
+
+                                    </div>
+                                    <button type="button" class="btn btn-dark btn_right review_re" onclick="myFunction()">쓰기</button>
+
+
+                                </div>
+                            </div>
+                        </td>
+
+
+
+                    </tr>
+                    
+                </table>
+                <hr style="color: rgb(231, 229, 229); border: solid 1px; width: 800px;">
+
+
+
+                <!--두번째 댓글-->
+                <hr style="color: rgb(231, 229, 229); border: solid 1px; width: 800px;">
+                <table class="full_size_tr">
+                    <tr>
+                        <td>4점</td>
+                        <td>너무 재밌음</td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" class="review_re">
+
+                            <button type="button" class="btn btn-dark btn_right review_re" onclick="myFunction()">공감 1</button>
+
+
+                            <button class="btn btn-dark re_wich" type="button" data-toggle="collapse"
+                                data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                                댓글
+                            </button>
+                            <br><br>
+                            <div class="collapse" id="collapseExample2">
+                                <div class="card card-body">
+                                    <div>
+
+                                        <input class="form-control" type="search" placeholder="댓글을 남겨주세요."
+                                            aria-label="Search" style="width: 700px; height: 100px">
+
+                                    </div>
+                                    <button type="button" class="btn btn-dark btn_right review_re" onclick="myFunction()">쓰기</button>
+
+
+                                </div>
+                            </div>
+                        </td>
+
+
+
+                    </tr>
+                    
+                </table>
+                <hr style="color: rgb(231, 229, 229); border: solid 1px; width: 800px;">
+
+            </div>
+
+            <!--세번째댓글-->
+            <hr style="color: rgb(231, 229, 229); border: solid 1px; width: 800px;">
+                <table class="full_size_tr">
+                    <tr>
+                        <td>4점</td>
+                        <td>너무 재밌음</td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" class="review_re">
+
+                            <button type="button" class="btn btn-dark btn_right review_re" onclick="myFunction()">공감 0</button>
+
+
+                            <button class="btn btn-dark re_wich" type="button" data-toggle="collapse"
+                                data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+                                댓글
+                            </button>
+                            <br><br>
+                            <div class="collapse" id="collapseExample3">
+                                <div class="card card-body">
+                                    <div>
+
+                                        <input class="form-control" type="search" placeholder="댓글을 남겨주세요."
+                                            aria-label="Search" style="width: 700px; height: 100px">
+
+                                    </div>
+                                    <button type="button" class="btn btn-dark btn_right review_re" onclick="myFunction()">쓰기</button>
+
+
+                                </div>
+                            </div>
+                        </td>
+
+
+
+                    </tr>
+                    
+                </table>
+                
+                <hr style="color: rgb(231, 229, 229); border: solid 1px; width: 800px;">
+                <br><br>
+                <button type="button" class="btn btn-light border border-dark review_more">10개 더보기</button>
+
+
+
+        </div>
+
+
+    </tbody>
+
+    <tfoot>
+        <br><br>
+        <div class="footer mt-5 bg-light">
+          <div class="row ml-3 mr-4 mt-3 pl-4 pr-5 pt-5">
+            <div class="col">
+              <ul class="company">
+                <h5 class="pb-3">COMPANY</h5>
+                <li class="pb-1"><a href="">회사소개</a></li>
+                <li><a href="">이용방법</a></li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul class="category">
+                <h5 class="pb-3">CATEGORY</h5>
+                <li class="pb-1"><a href="./inso.html">인소</a></li>
+                <li class="pb-1"><a href="./sing.html">노래/브금</a></li>
+                <li class="pb-1"><a href="./cartoon.html">하이라이트 영상</a></li>
+                <li class="pb-1"><a href="./post.html">과거공유</a></li>
+    
+              </ul>
+            </div>
+            <div class="col">
+              <ul class="introduction">
+                <h5 class="pb-3">ABOUT</h5>
+                <li class="pb-1"><a href="">채용 공고</a></li>
+                <li class="pb-1"><a href="">도움말</a></li>
+                <li class="pb-1"><a href="">채팅 상담</a></li>
+                <li class="pb-1"><a href="">제휴/도매/입점 안내</a></li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul class="account">
+                <h5 class="pb-3">ACCOUNT</h5>
+                <li class="pb-1"><a href="./login.html">회원가입/로그인</a></li>
+              </ul>
+            </div>
+            <div class="col-3">
+    
+              <ul class="about">
+                <h5 class="pb-3">나 때는 말이야</h5>
+                <li class="pb-1">서울특별시 강남구 삼성동</li>
+                <li class="pb-1">사업자등록번호: 123-45-67890</li>
+                <li class="pb-1">대표: 신 산하</li>
+                <li class="pb-1">Phone: 1322-2222</li>
+                <li class="pb-5">Email: tksgk2598@naver.com</li>
+              </ul>
+    
+    
+    
+            </div>
+          </div>
+          <div class="row ml-4 mr-4 mt-3 pl-5 pr-5 pt-5 pb-5">
+    
+    
+            <div class="col"></div>
+            <div class="col"></div>
+    
+            <div class="col text-right">
+              <h7 class="pb-3"><a href="">개인정보취급방침 | </a></h7>
+              <h7 class="pb-3"><a href="">이용약관</a></h7>
+            </div>
+    
+          </div>
+    
+    
+        </div>
+    
+      </tfoot>
+
+</body>
+
+</html>
